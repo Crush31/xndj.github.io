@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏服务 - 超值体验单</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        
+        body {
+            background-color: #0a0a1a;
+            color: #fff;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #1a1a3a 0%, #0d0d25 100%);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 150, 255, 0.3);
+            border: 1px solid #2a4a7a;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #2a4a7a;
+        }
+        
+        .logo {
+            font-size: 36px;
+            font-weight: bold;
+            color: #4a9eff;
+            text-shadow: 0 0 10px rgba(74, 158, 255, 0.7);
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: #ffcc00;
+            margin-bottom: 15px;
+        }
+        
+        .warning {
+            background-color: rgba(255, 50, 50, 0.2);
+            border: 1px solid #ff3232;
+            border-radius: 6px;
+            padding: 10px;
+            margin: 15px 0;
+            font-size: 14px;
+            color: #ff9999;
+        }
+        
+        .service-section {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: rgba(20, 30, 60, 0.5);
+            border-radius: 8px;
+            border-left: 4px solid #4a9eff;
+        }
+        
+        .service-title {
+            font-size: 20px;
+            color: #4a9eff;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .service-title::before {
+            content: "▶";
+            margin-right: 8px;
+            color: #ffcc00;
+        }
+        
+        .service-content {
+            padding-left: 20px;
+        }
+        
+        .price-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            padding: 5px 0;
+            border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+        }
+        
+        .price {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        
+        .conditions {
+            margin-top: 15px;
+            padding: 12px;
+            background-color: rgba(255, 100, 0, 0.1);
+            border-radius: 6px;
+            border: 1px solid #ff6400;
+            font-size: 14px;
+        }
+        
+        .conditions-title {
+            color: #ff9900;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #2a4a7a;
+            font-size: 14px;
+            color: #8899cc;
+        }
+        
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">游戏服务</div>
+            <div class="subtitle">超值体验单</div>
+            <div class="warning">
+                认准官方唯一指定渠道！请勿上当受骗
+            </div>
+        </div>
+        
+        <div class="service-section">
+            <div class="service-title">15元战神套餐</div>
+            <div class="service-content">
+                <p>一把30块，两个打手满5套➕满改枪 包C不包撤离（三把包撤一把）</p>
+            </div>
+        </div>
+        
+        <div class="service-section">
+            <div class="service-title">体验套餐</div>
+            <div class="service-content">
+                <div class="price-item">
+                    <span>体验单</span>
+                    <span class="price">20-288</span>
+                </div>
+                <div class="price-item">
+                    <span>标准单</span>
+                    <span class="price">40-388</span>
+                </div>
+                <div class="price-item">
+                    <span>高级单</span>
+                    <span class="price">50-488</span>
+                </div>
+                <div class="price-item">
+                    <span>豪华单</span>
+                    <span class="price">66-588</span>
+                </div>
+                <div class="price-item">
+                    <span>至尊单</span>
+                    <span class="price">88-888</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="service-section">
+            <div class="service-title">小时套餐</div>
+            <div class="service-content">
+                <div class="price-item">
+                    <span>1小时</span>
+                    <span class="price">35元</span>
+                </div>
+                <div class="price-item">
+                    <span>1小时</span>
+                    <span class="price">65元 (保底588万)</span>
+                </div>
+                <div class="price-item">
+                    <span>2小时</span>
+                    <span class="price">120元 (保底888万)</span>
+                </div>
+                <div class="price-item">
+                    <span>3小时</span>
+                    <span class="price">180元 (保底1188万)</span>
+                </div>
+                <div class="price-item">
+                    <span>4小时</span>
+                    <span class="price">240元 (保底1488万)</span>
+                </div>
+                <div class="price-item">
+                    <span>5小时</span>
+                    <span class="price">300元 (保底1688万)</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="service-section">
+            <div class="service-title">特殊套餐</div>
+            <div class="service-content">
+                <div class="price-item">
+                    <span>赌约单</span>
+                    <span class="price">单局300w-30 / 400w-66</span>
+                </div>
+                <div class="price-item">
+                    <span>清图单</span>
+                    <span class="price">机密一局60</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="conditions">
+            <div class="conditions-title">服务条款与说明</div>
+            <p>⚠️ 不撤离不算，撤离失败保险物资不算</p>
+            <p>⚠️ 不卡保底，对局中必须听打手指挥</p>
+            <p>⚠️ 不能乱跑，不能没耐心</p>
+        </div>
+        
+        <div class="footer">
+            <p>官方唯一指定渠道 · 专业团队 · 高效服务</p>
+            <p>联系客服获取更多信息</p>
+        </div>
+    </div>
+</body>
+</html>
